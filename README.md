@@ -6,13 +6,10 @@
 It's a website for the client to evaluate how was the exepriência with the service, was developed with the front-end in HTML and CSS and the back-end used Python with the flask framework, besides the use of the sqlite database.
 
 ## Layout 
-![Layout App]() 
+![Layout App](https://github.com/eduardoaoc/lexus-form/blob/main/assets/form-lexus.PNG) 
 
-![Layout App]()
+![Layout App](https://github.com/eduardoaoc/lexus-form/blob/main/assets/thank-u.PNG)
 
-![Layout App]()
-
-![Layout App]()
 
 # Technology used
 
