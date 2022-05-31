@@ -1,6 +1,6 @@
 # Website/Api - Form Lexus
 
-[![NPM](https://img.shields.io/npm/l/react)]() 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/eduardoaoc/lexus-form/blob/main/LICENSE) 
 
 # About the Project
 It's a website for the client to evaluate how was the exepriência with the service, was developed with the front-end in HTML and CSS and the back-end used Python with the flask framework, besides the use of the sqlite database.
