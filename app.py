@@ -5,7 +5,7 @@ from send_email import send_mail
 app= Flask(__name__)
 
 
-app.config['SQLALCHEMY_DATABASE_URI']= 'sqlite:///lexus-form/feedback.db'
+app.config['SQLALCHEMY_DATABASE_URI']= 'sqlite:///feedback.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']= False 
 
 
@@ -14,6 +14,7 @@ def create_db():
     db.create_all()
 
 
+@app.route('/')
 def index():
     return render_template('index.html')
 
@@ -37,5 +38,5 @@ def submit():
 
 if __name__ == '__main__':
     from db import db
-    app.init_app(app)                #inicialização do banco de dados
+    db.init_app(app)                
     app.run(debug=True)
